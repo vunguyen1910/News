@@ -28,7 +28,7 @@ const renderNews = (articles) =>{
     const articleHTML = articles.map(article =>{
         return`<div>
             <h2>${article.title}</h2>
-            <img src="${article.urlToImage}">
+            <img src="${article.urlToImage}>
             <h3>${article.description}</h3>
             <p>${article.content}</p>
             <p>${article.author}</p>
